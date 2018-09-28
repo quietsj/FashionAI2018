@@ -1,0 +1,8 @@
+Project Description:
+
+	This project needs to identify 8 labels of clothing, and the number of categories of each label is different. The number of categories of labels is between 5 and 10. The training data is in the order of 10,000 and the test data is in the order of 1,000.
+	
+Insights:
+
+	I wanted to try everything from the beginning to see how it worked. Most students used the method of multi-task classification, using a model for multi-classification. I'll just train one model for each label. The model I used was vgg19 model, and then migrated to other recognition tasks with the best model predicted from the 8 tags. The results were less than ideal, with only the top 7 percent.
+	Through this competition, the biggest feeling is to seek the best.
