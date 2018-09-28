@@ -1,2 +1,1 @@
-# FashionAI2018
-# Hello World!
+The FashionAI is the competion.
